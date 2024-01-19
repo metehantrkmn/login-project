@@ -1,0 +1,26 @@
+@media (max-width: 991.98px) {
+
+    .login{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .large-scale{
+        width: 80%;
+    }
+}
+
+.form-group{
+    margin-top: 1em;
+}
+
+.footer{
+    margin-bottom: -3em;
+}
+
+.heading{
+    font-family: 'Shadows Into Light', cursive;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUp.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>SignUp</title>
+</head>
+<body>
+    <section class="bg-light">
+        <div class="viewPort p-5 d-flex align-items-center">
+            <div class="container w-100 h-auto d-flex justify-content-center align-items-center">
+                <div class="myForm rounded border border-1 border-success shadow">
+                    <form class="p-3">
+                        <h2 class="myfont text-center">Student Campus</h2>
+                        <!--name surname inputs-->
+                        <div class="row input-group">
+                          <div class="form-group col-md-6">
+                            <label for="Name">Name</label>
+                            <input type="text" class="form-control" id="input-name" placeholder="Name">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="Surname">Surname</label>
+                            <input type="text" class="form-control" id="input-surname" placeholder="Surname">
+                          </div>
+                        </div>
+
+                        <!--email addres-->
+                        <div class="row input-group">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="input-email" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <!--Faculty and division group-->
+                        <div class="row input-group">
+                            <div class="form-group col-md-6">
+                                <label for="Faculty">Faculty</label>
+                                <select class="form-control" name="" id="select-faculty">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="Divison">Divison</label>
+                                <select class="form-control" name="" id="select-division">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!--phone number school number grade-->
+                        <div class="row input-group">
+                          <div class="form-group col-md-6">
+                            <label for="PhoneNumber">Phone Number</label>
+                            <input type="text" class="form-control" id="input-phone">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="SchoolNumber">School Number</label>
+                            <input type="text" class="form-control" id="input-school-number">
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="Grade">Grade</label>
+                            <input type="text" class="form-control" id="input-grade">
+                          </div>
+                        </div>
+
+                        <!--password-->
+                        <div class="row input-group">
+                            <div class="form-group col-md-6">
+                                <label for="Faculty">Faculty</label>
+                                <input type="password" id="input-password1" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="Divison">Divison</label>
+                                <input type="password" id="input-password2" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row input-group">
+                            <div class="col">
+                                <div class="text-end">
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

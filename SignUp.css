@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    .myForm{
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px){
+    .myForm{
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px){
+    .myForm{
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px){
+    .myForm{
+        width: 50%;
+    }
+}
+
+
+
+.viewPort{
+    height: 100vh;
+    width: 100vw;
+}
+
+.myfont{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+ .myForm input , .myForm select{
+    margin-bottom: 1em;
+ }
